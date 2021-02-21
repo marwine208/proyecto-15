@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../img/christian-perner-1fEQTFhcEXU-unsplash.jpg');
+    opacity: 0.8;
+}
+.clearfix-reloj{
+    float: none;
+    clear: both;
+}
+#global-reloj {
+    width: 75%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 25px;
+    box-shadow: 0 0 2px gray;
+    background: linear-gradient(to bottom,blue,white);
+   
+}
+#logo-reloj{
+    font-family: 'Roboto';
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 80px;
+    color:white;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+    background:rgba(4, 4, 54, 0.699)
+}
+#menu1{
+    font-family: 'Open Sans';
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    list-style: none;
+    background: linear-gradient(to bottom,blue,white);
+}
+li{
+    height: 46px;
+    display: inline-block;
+}
+li:hover{
+    background: blueviolet;
+}
+#menu1 a{
+    display: block;
+    color: honeydew;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+#reloj{
+    font-family: 'Roboto';
+    font-size: 130px;
+    font-weight: bold;
+}
+/*ESTILOS DEL FORMULARIO*/
+#box h2{
+    font-family: 'Roboto';
+}
+#formulario-contacto{
+    width: 70%;
+    margin-top: 10px;
+    margin-inline: 15px;
+    padding: 20px;
+}
+#formulario-contacto label{
+    width: 100%;
+    font-family: 'Open Sans';
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.help-block{
+    float: right;
+    background: red;
+    color: white;
+    padding: 10px;
+    width: 45%;
+   font-family: 'Roboto';
+   font-size: 16px;
+
+}
+  
+    

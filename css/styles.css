@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+#global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 25px;
+    box-shadow: 0 0 2px gray;
+}
+#logo{
+    font-family: 'Roboto';
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 80px;
+    color: honeydew;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+}
+#menu{
+    font-family: 'Open Sans';
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    list-style: none;
+}
+li{
+    height: 46px;
+    display: inline-block;
+}
+#menu a{
+    display: block;
+    color: honeydew;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+#post{
+    width: 60%;
+    float: left;
+    font-family: 'Open Sans';
+}
+.post h2{
+    font-size: 30px;
+    color: #333;
+}
+.post .fecha{
+    display: block;
+    color: #333;
+    margin-top: 4px;
+}
+p.articulo{
+    margin-top: 4px;
+    line-height: 27px;
+}
+a.button{
+    display: block;
+    text-align: center;
+    width: 15%;
+    margin-top: 8px;
+    text-decoration: none;
+    color: honeydew;
+    padding: 5px;
+}
+#sidebars{
+    font-family: "Open Sans";
+    width: 35%;
+    float:right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+h4.titulo-sidebars{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    background: url(../img/lines.png) repeat-x;
+}
+
+h4.titulo-sidebars  span{
+    padding: 8px;
+}
+.caracol{
+    width: 100%;
+}
+.edificio{
+    width: 100% !important;
+    height: 220px;
+}
+
+ input[type="text"] 
+/*form input [type="email"], */
+/*form input [type="password"]*/{
+   margin-top: 7px; 
+   padding: 3px;
+   border-radius: 1px solid #ccc;
+   width: 90%; 
+   align-items: center;
+   text-align: center;
+}
+input[type="submit"]{
+    padding: 5px;
+    border: 1px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+footer{
+font-family:'Open Sans';    
+color: white;
+height: 47px;
+margin: 10px auto;
+width: 65%;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 20px;
+}
+.bx-wrapper , .bx-viewport{
+height: 250px !important;
+}
+#selector-theme{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51,51, 0.5);
+    width: 50px;
+    height: 100px;
+}
+#estilo-1,
+#estilo-2,
+#estilo-3{
+    width: 25px;
+    height: 25px;
+    border: 1px solid wheat;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#estilo-1{
+    background: rgb(2, 44, 2);
+}
+#estilo-2{
+    background: blue;
+}
+#estilo-3{
+    background: red;
+}
+.subir{
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+/*ESTILOS HOJA DE INICIO*/
+#acordeon{
+    width: 100%;
+    float: rights;
+    margin-top: 40px;
+    font-family: 'Open Sans';
+    margin-bottom: 60px;
+}
+#tabs{
+    width: 50%;
+    float: left;
+  
+}
+#sidebars-1{
+    display: line;
+    font-family: "Open Sans";
+    width: 45%;
+    float: right;
+   
+}

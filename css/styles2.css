@@ -1,0 +1,31 @@
+body {
+    background: url('../img/cielo.jpg');
+    background-attachment: fixed;
+    }
+    #global{  
+        background: white;
+    }
+    #logo{
+        background: #1f87C4;
+    }
+    #menu{
+        background: #1f87C4;      
+    }
+    li:hover{
+        background:rgb(14, 1, 26) ;
+    }
+    a.button{
+         background:#1f87C4 ;
+    }
+    .button:hover{
+        background: rgba(116, 50, 240, 0.705) ;
+    }
+    h4.titulo-sidebars  span{
+        background: white;
+    }
+    input[type="submit"]{
+        background: #1f87C4;
+    }
+    footer{
+        background: rgba(112, 76, 241, 0.74);
+        }

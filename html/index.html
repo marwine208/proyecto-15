@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO WEB CON JS</title>
+    <!--HOJA DE ESTILOS GENERALES Y UI JQUERY-->
+    <link rel="stylesheet" href="../css/styles.css"> 
+    <link id="tema" rel="stylesheet" href="../css/styles1.css">
+    <!--FUENTES UTILIZADS-->  
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <!--JQUERY DE GOOGLE JQUERY UI-->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       <script src="../js/main.js"></script>
+    <!--PLUGGIN DE SLIDER CNC -->     
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"> 
+       <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+     <!--PLUGGIN MONENT FECHAS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+     
+</head>
+<body>
+   <div id="selector-theme">
+       <div id="estilo-1"></div>
+       <div id="estilo-2"></div>
+       <div id="estilo-3"></div>
+   </div>
+    <section id="global">
+ <!--CABECERA-->
+        <header>
+            <div id="logo">
+             <h1>PROYECTO JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav>
+                <ul id="menu" class="menu">
+                    <li><a href="acordeon.html">INICIO</a></li>
+                    <li><a href="#">CALCULADORA</a></li>
+                    <li><a href="reloj.html">RELOJ</a></li>
+                    <li><a href="#">JUEGO CHAPUZA</a></li>
+                    <li><a href="formulario.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+        </header>
+<!--SLIDER-->
+<div class="slider">
+    <div><img src="../img/rojo.jpg" title="Funky roots"></div>
+  <div><img src="../img/hojas.jpg" title="The long and winding road"></div>
+  <div><img src="../img/cielo.jpg" title="Happy trees"></div>
+  </div>
+
+<!--CONTENIDO-->  
+        <section id="content">
+            <!--ARTICULO 1-->  
+            <div id="post">
+                <article class="post">
+                    <h2>TITULO DEL ARTICULO</h2>
+                    <p> <strong class="fecha">FECHA DE PUBLICACION</strong> </p>
+                    <p align="justify" class="articulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At temporibus nisi, nostrum dolorem atque expedita ad dolor quia aspernatur? In doloribus sunt doloremque officia quod magnam quaerat voluptas distinctio iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus sint, id facere nobis sit at minima nihil consectetur quo similique neque non doloribus earum tempore dicta ipsum sed quos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, quas odio sapiente corporis magni enim voluptas amet quo voluptatum atque deleniti at vel reprehenderit neque eligendi officiis iusto voluptatibus est.</p>
+                     <a href="#" class="button" aling="center">LEER MAS</a>
+                </article>
+            </div>
+           
+            <aside id="sidebars">
+                <div id="about" >
+                    <h4 class="titulo-sidebars"> <span>QUIEN SOY</span>  </h4>
+                    <img class="caracol" src="../img/caracol.jpg" alt="">
+                    <p align="justify" id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aut dolor quidem a repellendus deleniti, voluptates in tenetur mollitia et pariatur veniam id. Ipsa aliquam, sequi porro labore facere reprehenderit!</p>
+                </div>
+                <div id="login">
+                    <h4 class="titulo-sidebars"><span>IDENTIFICATE</span></h4>
+                    <form align="justify" >
+                        <label for="name">
+                            NOMBRE
+                        </label>
+                        <input type="text" name="name" id="form_name">
+                        
+                        <label for="email">
+                            CORREO
+                        </label>
+                        <input type="text" name="email" id="form_email">
+                        
+                        <label for="password">
+                            PASSWORD
+                        </label>
+                        
+                        <input type="text" name="password" id="form_password">
+                        
+                        <input type="submit" value="Entrar" id="form_entrar">
+
+                    </form>
+
+
+                </div>
+               
+            </aside>
+            <!--<div id="sidebars"></div>-->
+            <!--div class="clearfix"></div>-->
+<br>
+            <!--ARTICULO 2-->  
+            <div id="post">
+                <article class="post">
+                    
+                    <h2>TITULO DEL ARTICULO</h2>
+                    <p> <strong class="fecha">FECHA DE PUBLICACION</strong> </p>
+                    <p align="justify" class="articulo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At temporibus nisi, nostrum dolorem atque expedita ad dolor quia aspernatur? In doloribus sunt doloremque officia quod magnam quaerat voluptas distinctio iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus sint, id facere nobis sit at minima nihil consectetur quo similique neque non doloribus earum tempore dicta ipsum sed quos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, quas odio sapiente corporis magni enim voluptas amet quo voluptatum atque deleniti at vel reprehenderit neque eligendi officiis iusto voluptatibus est.</p>
+                     <a href="#" class="button" aling="center">LEER MAS</a>
+                </article>
+            </div>
+            <div class="clearfix"></div>
+
+        </section>
+      
+    </section>
+    <footer>
+        MAQUETADO DE PAGINA
+        <a href="#" class="subir">INICIO</a>
+    </footer>
+   
+</body>
+</html>
+
